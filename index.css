@@ -1,0 +1,157 @@
+/* html{
+    height: 200vh;
+    margin: 50px;
+} */
+body{
+    background-color: rgba(95, 88, 88, 0.822);
+}
+#test{
+    width: 25vw;
+    color: rgb(177, 29, 29);
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    left: 35vw;
+    text-shadow: 1px 1px 2px brown;
+    box-shadow: 7px 7px 2px rgb(194, 13, 194);
+
+}
+.hr{
+    color: white;
+    box-shadow: 0px 5px 0px rgb(214, 201, 201);
+}
+.item{ 
+    height: 80vh;
+    border: 10px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.test{   
+    width: 10vw;
+    height: 25vh;
+    padding: 10px;
+    color: rgb(70, 18, 105);
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px brown;
+    box-shadow: 7px 7px 2px rgb(194, 13, 194);
+    font-weight: bold;
+
+}
+.item1{
+    padding-top: 30px;
+    position: absolute;
+    top: 0px;
+    left: 10px;  
+}
+.item2{
+    position: absolute;
+    /* float: right; */
+    top: 0px;
+    right: 20px;
+    background-image:url(./D.boy.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.item3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+}
+.item4{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+input{
+    text-align: center;
+    font-style: italic;
+    width: 100px;
+}
+button{
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    background-color: rgb(23, 87, 23);
+    text-align: center;
+    border: 10px solid rgb(77, 14, 77);
+    margin-top: 20px;
+    gap: 5px 5px;
+
+}
+.grid-items{
+    background-color: rgb(248, 246, 118);
+    font-style: italic;
+    padding-bottom: 20px;
+
+
+}
+.g{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.g3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+/* .g-c2{
+    position: fixed;
+    display: grid;
+    width: 30vw;
+    top: 80vh;
+    left: 30vw;
+    grid-template-columns: auto auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: greenyellow;
+    box-shadow: 7px 7px 2px rgb(194, 13, 194);
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(122, 39, 39);
+    text-align: center;
+    padding: 20px;
+} */
+.float{
+    width: 30vw;
+    top: 80vh;
+    color: rgb(122, 39, 39);
+    border: 5px solid red;
+    background-color: greenyellow;
+    box-shadow: 7px 7px 2px rgb(194, 13, 194);
+    border-radius: 10px;
+    position: fixed;
+    left: 400px;
+    bottom: 50px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+    left: 30vw;
+
+
+}
+.left{
+    float: left;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    font-weight: bold;
+}
